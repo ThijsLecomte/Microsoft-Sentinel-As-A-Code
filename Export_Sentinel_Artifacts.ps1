@@ -558,7 +558,7 @@ Function Get-MicrosoftSentinelAutomationRule {
     )
       
     $BaseUri = $ResourceManagerUrl.TrimEnd('/')+$BaseUri
-    $uri = "$BaseUri/providers/Microsoft.SecurityInsights/automationRules?api-version=2022-07-01-preview"
+    $uri = "$BaseUri/providers/Microsoft.SecurityInsights/automationRules?api-version=2022-09-01-preview"
     Write-Log -Message "End point $uri" -LogFileName $LogFileName -Severity Information
     
 
